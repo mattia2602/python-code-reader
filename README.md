@@ -49,3 +49,19 @@ Questa opzione permetterà un'agevolazione nel movimento all'interno dell'editor
 
 # STEP 5: SALVARE NELLA CARTELLA DI LAVORO IL FILE 'parser.py'
 
+Ora sulla vostra area di lavoro, creare un nuovo file python, in cui all'interno dovrete copiare il contenuto del file files/parser.py.
+Questo codice permette di avere un parsing avanzato di codice python, in modo tale che l'utente possa poter comprendere meglio il funzionamento del codice che ha scritto, potendo ascoltare una lettura più dettagliata sul costrutto di cui vuole sapere qualcosa in più rispetto alla lettura del codice per come è scritto proposta dal suo screen reader.
+
+# STEP 6: CREARE UN TASK IN VISUAL STUDIO CODE MODIFICANDO IL FILE 'task.json'
+
+I seguenti step ci aiuteranno a far in modo che il parsing avanzato di un nostro programma scritto in python possa avvenire nella maniera più semplice  possibile. Per far ciò legeremo questa nostra azione ad un Task di Visual studio code, attraveros il seguente procedimento:
+
+ - Sulla schermata dove stiamo visualizzando il nostro file scritto in python digitare CTRL+SHIFT+P (su MAC-OS: COMMAND+SHIFT+P)
+ - Verrà aperta la 'barra dei comandi'
+ - Digitare nella barra 'Configure User Tasks'
+ - Selezionare la voce 'Tasks: Configure User Tasks'
+ - Cliccare 'CMake: build'
+
+Di fronte a noi apparirà il file 'task.json' dell'editor Visual studio code, copiare all'interno di esso il contenuto del file che trovate all'interno di files/task.json
+
+
