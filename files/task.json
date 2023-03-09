@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "python3",
             "args": [
-                "print_selected_line.py",
+                "parser.py",
                 "${file}",
                 "${lineNumber}",
                 "'${selectedText}'"
