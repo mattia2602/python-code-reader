@@ -31,7 +31,7 @@ Se python non è ancora presente nel vostro pc e/o nel vostro editor, potete seg
   - Se non ancora installato sarà visibile il bottone 'install', si dovrà cliccare su di esso
   - Attendere l'installazione, poi chiudere e riaprire l'editor
  
-Se è necessario anche l'interprete per python, in base al vostro sistema operativo installarlo mediante il seguente link: https://www.python.org/downloads/
+Se è necessario anche l'interprete per python, è possibile scaricarlo in base al vostro sistema operativo mediante il seguente link: https://www.python.org/downloads/
 
 # STEP 4: ATTIVARE L'OPZIONE 'SCREEN READER OPTIMIZED' SU VISUAL STUDIO CODE
 
