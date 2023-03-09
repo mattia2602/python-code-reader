@@ -1,0 +1,8 @@
+[
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Print selected line",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
