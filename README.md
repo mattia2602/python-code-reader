@@ -52,6 +52,10 @@ Questa opzione permetterà un'agevolazione nel movimento all'interno dell'editor
 Ora sulla vostra area di lavoro, creare un nuovo file python, in cui all'interno dovrete copiare il contenuto del file files/parser.py.
 Questo codice permette di avere un parsing avanzato di codice python, in modo tale che l'utente possa poter comprendere meglio il funzionamento del codice che ha scritto, potendo ascoltare una lettura più dettagliata sul costrutto di cui vuole sapere qualcosa in più rispetto alla lettura del codice per come è scritto proposta dal suo screen reader.
 
+NOTE: Per il funzionamento di parser.py saranno necessarie le librerie:
+  - 'ast': "pip install ast" -> creazione dell'albero di parsing
+  - 'pysstx3: "pip install pysstx3" -> sintetizzatore vocale
+
 # STEP 6: CREARE UN TASK IN VISUAL STUDIO CODE MODIFICANDO IL FILE 'task.json'
 
 I seguenti step ci aiuteranno a far in modo che il parsing avanzato di un nostro programma scritto in python possa avvenire nella maniera più semplice  possibile. Per far ciò legeremo questa nostra azione ad un Task di Visual studio code, attraveros il seguente procedimento:
@@ -76,5 +80,16 @@ Ora vogliamo assegnare ad una combinazione di tasti il nostro processu su Visual
 
 Di fronte a noi apparirà il file 'keybindings.json' dell'editor Visual studio code, copiare all'interno di esso il contenuto del file che trovate all'interno di files/keybindings.json
 
+É possibile impostare combinazioni di tasti differenti, unico suggerimento è quello di non impostare combinazion i di tasti corrispondenti ad altre shortcuts
+
+# CONCLUSIONI
+
+Ora è possibile creare del codice python, evidenziare col cursore una porzione del codice, cliccare la combinazione di tasti CTRL+SHIFT+X per poter ascoltare una lettura avanzata del pezzo di codice python.
+Limiti del programma:
+ - Attualmente il programma non è in grado di gestire il parsing di tutti i costrutti di python, ma è possibile implementarli nel codice una volta  
+   capita la logica del suo funzionamento. Sono comunque presenti i principali costrutti utilizzati.
+   
+ - È necessario passare un costrutto nella sua interezza affinchè il parsing avanzato venga effettuato con successo, in caso contrario il parser 
+   risponderà con un errore
 
 
