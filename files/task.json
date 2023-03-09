@@ -1,16 +1,22 @@
 {
- ”version”: ”2.0.0”, ”tasks”: [
-{
-} }
-”label”: ”Print selected line”, ”type”: ”shell”,
-”command”: ”python”,
-”args”: [
-”print selected line .py”, ”${ f i l e }” , ”${lineNumber}” ,
-” ’ ${ s e l e c t e d T e x t } ’ ”
-],
-”presentation”: {
-”reveal”: ”silent” },
-”group”: {
-”kind” : ”test”, ”isDefault” : true
-]
+ ”version”: ”2.0.0”, 
+ ”tasks”: [
+    {
+       ”label”: ”Print selected line”, ”type”: ”shell”,
+       ”command”: ”python”,
+       ”args”: [
+                 ”parser.py”, 
+                 ”${file}” , 
+                 ”${lineNumber}” ,
+                 ”’${selectedText }’”
+       ],
+       ”presentation”: {
+                 ”reveal”: ”silent”
+       },
+       ”group”: {
+                 ”kind” : ”test”, 
+                 ”isDefault” : true
+       }
+    }
+ ]
 }
