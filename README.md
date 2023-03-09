@@ -54,7 +54,9 @@ Questo codice permette di avere un parsing avanzato di codice python, in modo ta
 
 NOTE: Per il funzionamento di parser.py saranno necessarie le librerie:
   - 'ast': "pip install ast" -> creazione dell'albero di parsing
-  - 'pysstx3: "pip install pysstx3" -> sintetizzatore vocale
+  - 'pysstx3': "pip install pysstx3" -> sintetizzatore vocale
+  - 'tokenize': "pip install tokenize" -> poter effettuare il parsing anche dei commenti all'interno del codice
+  - 'io','os','sys'
 
 # STEP 6: CREARE UN TASK IN VISUAL STUDIO CODE MODIFICANDO IL FILE 'task.json'
 
