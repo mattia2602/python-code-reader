@@ -64,4 +64,17 @@ I seguenti step ci aiuteranno a far in modo che il parsing avanzato di un nostro
 
 Di fronte a noi apparirà il file 'task.json' dell'editor Visual studio code, copiare all'interno di esso il contenuto del file che trovate all'interno di files/task.json
 
+Ora abbiamo creato un Task che richiama il nostro file 'parser.py' con argomento il file di cui vogliamo eseguire un parsing avanzato di una determinata riga di codice
+
+# STEP 7: CREARE UN COMANDO RAPIDO PER ESEGUIRE IL PARSER AVANZATO
+
+Ora vogliamo assegnare ad una combinazione di tasti il nostro processu su Visual Studio Code, per farlo:
+ - Sulla schermata dove stiamo visualizzando il nostro file scritto in python digitare CTRL+SHIFT+P (su MAC-OS: COMMAND+SHIFT+P)
+ - Verrà aperta la 'barra dei comandi'
+ - Digitare nella barra 'Open Keyboard Shortcuts'
+ - Selezionare la voce: 'Preferences: Open Keyboard ShortCuts(JSON)'
+
+Di fronte a noi apparirà il file 'keybindings.json' dell'editor Visual studio code, copiare all'interno di esso il contenuto del file che trovate all'interno di files/keybindings.json
+
+
 
