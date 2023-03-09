@@ -66,6 +66,9 @@ I seguenti step ci aiuteranno a far in modo che il parsing avanzato di un nostro
  - Selezionare la voce 'Tasks: Configure User Tasks'
  - Cliccare 'CMake: build'
 
+<img width="624" alt="Schermata 2023-03-09 alle 11 59 03" src="https://user-images.githubusercontent.com/63148243/224004167-7b219c61-2ff7-4c31-a739-f21bec99cd8b.png">
+
+
 Di fronte a noi apparirà il file 'task.json' dell'editor Visual studio code, copiare all'interno di esso il contenuto del file che trovate all'interno di files/task.json
 
 Ora abbiamo creato un Task che richiama il nostro file 'parser.py' con argomento il file di cui vogliamo eseguire un parsing avanzato di una determinata riga di codice
@@ -77,6 +80,9 @@ Ora vogliamo assegnare ad una combinazione di tasti il nostro processu su Visual
  - Verrà aperta la 'barra dei comandi'
  - Digitare nella barra 'Open Keyboard Shortcuts'
  - Selezionare la voce: 'Preferences: Open Keyboard ShortCuts(JSON)'
+
+<img width="624" alt="Schermata 2023-03-09 alle 11 58 46" src="https://user-images.githubusercontent.com/63148243/224004192-7853a33c-abf1-43e6-9680-61947f7b5d2f.png">
+
 
 Di fronte a noi apparirà il file 'keybindings.json' dell'editor Visual studio code, copiare all'interno di esso il contenuto del file che trovate all'interno di files/keybindings.json
 
