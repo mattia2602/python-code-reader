@@ -85,7 +85,9 @@ Di fronte a noi apparirà il file 'keybindings.json' dell'editor Visual studio c
 # CONCLUSIONI
 
 Ora è possibile creare del codice python, evidenziare col cursore una porzione del codice, cliccare la combinazione di tasti CTRL+SHIFT+X per poter ascoltare una lettura avanzata del pezzo di codice python.
+
 Limiti del programma:
+
  - Attualmente il programma non è in grado di gestire il parsing di tutti i costrutti di python, ma è possibile implementarli nel codice una volta  
    capita la logica del suo funzionamento. Sono comunque presenti i principali costrutti utilizzati.
    
