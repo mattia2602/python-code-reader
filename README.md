@@ -64,14 +64,13 @@ I seguenti step ci aiuteranno a far in modo che il parsing avanzato di un nostro
 
  - Sulla schermata dove stiamo visualizzando il nostro file scritto in python digitare CTRL+SHIFT+P (su MAC-OS: COMMAND+SHIFT+P)
  - Verrà aperta la 'barra dei comandi'
- - Digitare nella barra 'Configure User Tasks'
- - Selezionare la voce 'Tasks: Configure User Tasks'
- - Cliccare 'CMake: build'
+ - Digitare nella barra 'Configure Tasks'
+ - Selezionare la voce 'Tasks: Configure Tasks'
+ - Cliccare 'Create task.json file from template'
 
-<img width="624" alt="Schermata 2023-03-09 alle 11 59 03" src="https://user-images.githubusercontent.com/63148243/224004167-7b219c61-2ff7-4c31-a739-f21bec99cd8b.png">
+<img width="813" alt="Schermata 2023-03-13 alle 09 33 42" src="https://user-images.githubusercontent.com/63148243/224648133-274d5cd9-a4e0-4781-a252-3467b22e6dfe.png">
 
-
-Di fronte a noi apparirà il file 'task.json' dell'editor Visual studio code, copiare all'interno di esso il contenuto del file che trovate all'interno di files/task.json
+Di fronte a noi apparirà il file 'task.json' dell'editor Visual studio code, se si vuole si può eliminare il contenuto presente nel file per evitare confusione, poi copiare all'interno di esso il contenuto del file che trovate all'interno di files/task.json.
 
 Ora abbiamo creato un Task che richiama il nostro file 'parser.py' con argomento il file di cui vogliamo eseguire un parsing avanzato di una determinata riga di codice
 
