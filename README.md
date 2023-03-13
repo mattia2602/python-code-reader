@@ -79,7 +79,7 @@ Creiamo un 'Task', ovvero una serie di eventi che vengono raccolti in un'unica a
 
 <img width="813" alt="Schermata 2023-03-13 alle 09 33 42" src="https://user-images.githubusercontent.com/63148243/224648133-274d5cd9-a4e0-4781-a252-3467b22e6dfe.png">
 
-Di fronte a noi apparirà il file 'task.json', se lo si desidera, si può eliminare il contenuto presente nel file, non sarà utile al fine del progetto. Copiare all'interno di 'task.json' il contenuto del file all'interno di files/task.json.
+Si aprirà il file 'task.json'. Se lo si desidera, si può eliminare il contenuto presente nel file, non sarà utile al fine del progetto. Copiare all'interno di 'task.json' il contenuto del file all'interno di files/task.json.
 
 Ora è stato creato nell'editor un Task che esegue 'parser.py' e prende come argomento il file di cui vogliamo eseguire un parsing avanzato di una determinata riga di codice.
 
