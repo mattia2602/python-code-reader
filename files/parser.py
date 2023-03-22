@@ -1,3 +1,4 @@
+     
 # Librerie necessarie
 import ast
 import io
@@ -393,6 +394,10 @@ class NodeVisitor(ast.NodeVisitor):
         # se il valore assegnato è un dizionario
         if isinstance(node.value, ast.Dict):
             visitor.visit_Dict(node.value)
+        # se il valore assegnato è un elemento di un array
+        if isinstance(node.value, ast.Subscript):
+            visitor.visit_Subscript(node.value)
+            
 
         parsing_trace += ".\n"
 
@@ -736,12 +741,13 @@ if __name__ == '__main__':
         engine.say(parsing_trace)
 
         # stampa dei commenti trovati nel codice
-        engine.say("\nCommenti trovati all'interno del codice: \n")
         comments_in_code = extract_comment(code)
-        print(comments_in_code)
-        # Lettura dei commenti trovati nel codice
-        for comment in comments_in_code:
-            engine.say("Nuovo commento, contenuto: , ")
-            engine.say(comment + ".\n")
+        if(len(comments_in_code) > 0):
+            engine.say("\nCommenti trovati all'interno del codice: \n")
+            print(comments_in_code)
+            # Lettura dei commenti trovati nel codice
+            for comment in comments_in_code:
+                engine.say("Nuovo commento, contenuto: , ")
+                engine.say(comment + ".\n")
 
         engine.runAndWait()
