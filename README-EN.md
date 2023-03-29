@@ -26,8 +26,8 @@ Here is an installation guide using the 'Visual Studio Code' editor.
    - Open Visual studio Code
    - On the left shoulder of the editor select the 'extensions' section
    - In the search field that appears type 'python'
-  
-   <img width="550" alt="Screenshot 2023-03-09 at 10 57 42" src="https://user-images.githubusercontent.com/63148243/223986978-ac0da31f-b163-403a-a2d6-0473c554d9f4. png">
+
+  <img width="550" alt="Schermata 2023-03-09 alle 10 57 42" src="https://user-images.githubusercontent.com/63148243/223986978-ac0da31f-b163-403a-a2d6-0473c554d9f4.png">
   
    - If you have not yet installed it, the 'install' button will be visible, you will have to click on it
      it to start the installation
@@ -47,7 +47,7 @@ Once the screen reader is activated and 'Visual Studio Code' is opened, the next
    - Set to 'on' if you want the editor to always be optimized for screen readers, or
      to 'auto' if you want it to be optimized only when it detects an active one.
     
-<img width="550" alt="Screenshot 2023-03-09 at 11 11 01" src="https://user-images.githubusercontent.com/63148243/223990138-b505b015-d21c-46cd-80ad-0e1b6ea0d59a. png">
+<img width="550" alt="Schermata 2023-03-09 alle 11 11 01" src="https://user-images.githubusercontent.com/63148243/223990138-b505b015-d21c-46cd-80ad-0e1b6ea0d59a.png">
 
 This option will allow easier movement within the editor and between the various sections, and will also add properties such as reading lines of code in full unlike normal screen readers, which tend to read text word by word .
 
@@ -75,7 +75,7 @@ We create a 'Task', i.e. a series of events that are collected in a single actio
   - Select 'Tasks: Configure Tasks'
   - Click 'Create task.json file from template'
 
-<img width="813" alt="Screenshot 2023-03-13 at 09 33 42" src="https://user-images.githubusercontent.com/63148243/224648133-274d5cd9-a4e0-4781-a252-3467b22e6dfe. png">
+<img width="813" alt="Schermata 2023-03-13 alle 09 33 42" src="https://user-images.githubusercontent.com/63148243/224648133-274d5cd9-a4e0-4781-a252-3467b22e6dfe.png">
 
 The 'task.json' file will open. If desired, the content present in the file can be eliminated, it will not be useful for the end of the project. Copy the code from the file in files/task.json into 'task.json'.
 
@@ -90,7 +90,7 @@ Still within 'Visual Studio Code' we must proceed as follows:
   - Type in the 'Open Keyboard Shortcuts' bar
   - Select the item: 'Preferences: Open Keyboard ShortCuts(JSON)'
 
-<img width="624" alt="Screenshot 2023-03-09 at 11 58 46" src="https://user-images.githubusercontent.com/63148243/224004192-7853a33c-abf1-43e6-9680-61947f7b5d2f. png">
+<img width="624" alt="Schermata 2023-03-09 alle 11 58 46" src="https://user-images.githubusercontent.com/63148243/224004192-7853a33c-abf1-43e6-9680-61947f7b5d2f.png">
 
 
 The 'keybindings.json' file will open which allows you to associate an event with a series of keys, copy the contents of the file inside files/keybindings.json
