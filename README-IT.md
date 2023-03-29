@@ -55,7 +55,7 @@ Quest'opzione permetterà un'agevolazione nel movimento all'interno dell'editor 
 
 # STEP 5: SALVARE NELLA CARTELLA DI LAVORO IL FILE 'parser.py'
 
-Ora sull'area di lavoro dell'editor, creare un nuovo file python, copiare il contenuto del file 'parser.py'(./files/parser.py).
+Ora sull'area di lavoro dell'editor, creare un nuovo file python, copiare il contenuto del file [parser.py](./files/parser.py).
 Questo codice sviluppato da me permette di avere un parsing avanzato di codice python, in modo tale che l'utente possa poter comprendere meglio il funzionamento del codice che ha scritto, potendo ascoltare una lettura più dettagliata sul costrutto di cui vuole sapere qualcosa in più rispetto alla lettura del codice per come è scritto proposta dal suo screen reader.
 Il funzionamento, senza entrare nei dettagli, è quello di aver costruito dei 'trigger' che si attivano ogni volta che rileva un costrutto principale del linguaggio Python (cicli, condizioni, variabili,...) e ,per ognuno di essi, compie una determinata azione programmata. 
 Principalmente tutti i trigger hanno come azione programmata quella di inserire in una stringa globale una frase come "Ho letto la variabile 'a'", oppure "Ho appena letto un ciclo for", in modo che poi questa lunga stringa possa venire letta mediante un dispositivo come uno screen reader o un sintetizzatore vocale.
@@ -79,7 +79,7 @@ Creiamo un 'Task', ovvero una serie di eventi che vengono raccolti in un'unica a
 
 <img width="813" alt="Schermata 2023-03-13 alle 09 33 42" src="https://user-images.githubusercontent.com/63148243/224648133-274d5cd9-a4e0-4781-a252-3467b22e6dfe.png">
 
-Si aprirà il file 'task.json'. Se lo si desidera, si può eliminare il contenuto presente nel file, non sarà utile al fine del progetto. Copiare all'interno di 'task.json' il codice del file presente in files/task.json.
+Si aprirà il file 'task.json'. Se lo si desidera, si può eliminare il contenuto presente nel file, non sarà utile al fine del progetto. Copiare all'interno di 'task.json' il codice del file presente in [task.json](./files/task.json).
 
 Ora è stato creato nell'editor un Task che esegue 'parser.py' e prende come argomento il nome del file di cui vogliamo eseguire un parsing avanzato di una determinata riga di codice.
 
@@ -95,7 +95,7 @@ Sempre all'interno di 'Visual Studio Code' dobbiamo preocedere nel seguente modo
 <img width="624" alt="Schermata 2023-03-09 alle 11 58 46" src="https://user-images.githubusercontent.com/63148243/224004192-7853a33c-abf1-43e6-9680-61947f7b5d2f.png">
 
 
-Si aprirà il file 'keybindings.json' che permette di associare ad una serie di tasti un evento, copiare all'interno di esso il contenuto del file all'interno di files/keybindings.json
+Si aprirà il file 'keybindings.json' che permette di associare ad una serie di tasti un evento, copiare all'interno di esso il contenuto del file all'interno di [keybindings.json](./files/keybindings.json)
 
 É possibile impostare combinazioni di tasti differenti, l'unico suggerimento è quello di non impostare combinazioni di tasti corrispondenti ad altre keyboard-shortcuts.
 
