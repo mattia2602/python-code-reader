@@ -1,4 +1,4 @@
-# Python-code-reader
+# LETTORE AVANZATO DI CODICE PYTHON
 Questo progetto è stato creato con lo scopo di fornire codice ed istruzioni utili alla configurazione dell'editor 'Visual Studio Code' per coloro che hanno difficoltà visive e desiderano programmare in Python. Lo scopo è di rendere lo sviluppo del codice più accessibile alle loro esigenze. I sorgenti di codice che verranno citati in alcuni step sono disponibili nel folder 'files'.
 
 # STEP 1: INSTALLARE UNO SCREEN READER
