@@ -55,7 +55,7 @@ Quest'opzione permetterà un'agevolazione nel movimento all'interno dell'editor 
 
 # STEP 5: SALVARE NELLA CARTELLA DI LAVORO IL FILE 'parser.py'
 
-Ora sull'area di lavoro dell'editor, creare un nuovo file python, copiare il contenuto del file 'parser.py'.
+Ora sull'area di lavoro dell'editor, creare un nuovo file python, copiare il contenuto del file 'parser.py'(./files/parser.py).
 Questo codice sviluppato da me permette di avere un parsing avanzato di codice python, in modo tale che l'utente possa poter comprendere meglio il funzionamento del codice che ha scritto, potendo ascoltare una lettura più dettagliata sul costrutto di cui vuole sapere qualcosa in più rispetto alla lettura del codice per come è scritto proposta dal suo screen reader.
 Il funzionamento, senza entrare nei dettagli, è quello di aver costruito dei 'trigger' che si attivano ogni volta che rileva un costrutto principale del linguaggio Python (cicli, condizioni, variabili,...) e ,per ognuno di essi, compie una determinata azione programmata. 
 Principalmente tutti i trigger hanno come azione programmata quella di inserire in una stringa globale una frase come "Ho letto la variabile 'a'", oppure "Ho appena letto un ciclo for", in modo che poi questa lunga stringa possa venire letta mediante un dispositivo come uno screen reader o un sintetizzatore vocale.
