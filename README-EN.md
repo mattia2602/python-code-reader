@@ -53,7 +53,7 @@ This option will allow easier movement within the editor and between the various
 
 # STEP 5: SAVE THE 'parser.py' FILE IN THE WORK DIRECTORY
 
-Now on the editor workspace, create a new python file, copy the contents of the 'parser.py' file.
+Now on the editor workspace, create a new python file, copy the contents of the [parser.py](./files/parser.py) file.
 This code developed by me allows you to have an advanced parsing of python code, so that the user can better understand how the code he wrote works, being able to listen to a more detailed reading of the construct he wants to know more about to the reading of the code as it is written proposed by its screen reader.
 The way it works, without going into details, is that of having built 'triggers' which are activated every time it detects a main construct of the Python language (cycles, conditions, variables,...) and, for each of them, performs a certain planned action.
 Basically all the triggers have the programmed action of inserting a sentence like "I read the variable 'a'" in a global string, or "I just read a for loop", so that this long string can then be read using a device such as a screen reader or speech synthesizer.
@@ -77,7 +77,7 @@ We create a 'Task', i.e. a series of events that are collected in a single actio
 
 <img width="813" alt="Schermata 2023-03-13 alle 09 33 42" src="https://user-images.githubusercontent.com/63148243/224648133-274d5cd9-a4e0-4781-a252-3467b22e6dfe.png">
 
-The 'task.json' file will open. If desired, the content present in the file can be eliminated, it will not be useful for the end of the project. Copy the code from the file in files/task.json into 'task.json'.
+The 'task.json' file will open. If desired, the content present in the file can be eliminated, it will not be useful for the end of the project. Copy the code from the file in [task.json](./files/task.json) into 'task.json'.
 
 Now a Task has been created in the editor that executes 'parser.py' and takes as argument the name of the file we want to perform an advanced parsing of a given line of code.
 
@@ -93,7 +93,7 @@ Still within 'Visual Studio Code' we must proceed as follows:
 <img width="624" alt="Schermata 2023-03-09 alle 11 58 46" src="https://user-images.githubusercontent.com/63148243/224004192-7853a33c-abf1-43e6-9680-61947f7b5d2f.png">
 
 
-The 'keybindings.json' file will open which allows you to associate an event with a series of keys, copy the contents of the file inside files/keybindings.json
+The 'keybindings.json' file will open which allows you to associate an event with a series of keys, copy the contents of the file inside [keybindings.json](./files/keybindings.json)
 
 It is possible to set different key combinations, the only suggestion is not to set key combinations corresponding to other keyboard-shortcuts.
 
