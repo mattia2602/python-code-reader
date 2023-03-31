@@ -10,6 +10,7 @@
 - Utilizzo dei valori logici TRUE e FALSE
 
 - Visit di un'espressione composta da:
+
             - valori costanti
             - assegnamento
             - comparazione
