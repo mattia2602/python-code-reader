@@ -523,11 +523,11 @@ class NodeVisitor(ast.NodeVisitor):
         if isinstance(node.op, ast.And):
             visitor.visit_And(node.op)
         # operatore or
-        elif isinstance(node.op, ast.And):
-            visitor.visit_And(node.op)
+        elif isinstance(node.op, ast.Or):
+            visitor.visit_Or(node.op)
         # operatore not
-        elif isinstance(node.op, ast.And):
-            visitor.visit_And(node.op)
+        elif isinstance(node.op, ast.Not):
+            visitor.visit_Not(node.op)
 
         # se il valore a destra dell'operatore è una costante
         if isinstance(node.values[1], ast.Constant):
