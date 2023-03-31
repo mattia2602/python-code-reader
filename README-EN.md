@@ -106,3 +106,5 @@ Program Limits:
   - Currently the program is not able to parse all python constructs, but it is possible to implement them in the code once you understand the logic of its operation. Therefore, the main constructs used in programming Python code are present.
    
   - It is necessary to highlight a construct with the cursor in its entirety for advanced parsing to be performed successfully, otherwise the parser will respond with a generic error.
+
+ - To see which constructs the code currently covers see the file [implementations.md](./implementations.md)
