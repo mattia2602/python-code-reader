@@ -108,3 +108,5 @@ Limiti del programma:
  - Attualmente il programma non è in grado di gestire il parsing di tutti i costrutti di python, ma è possibile implementarli nel codice una volta capita la logica del suo funzionamento. Sono dunque presenti i principali costrutti utilizzati nella programmazione di codice Python.
    
  - È necessario evidenziare col cursore un costrutto nella sua interezza affinchè il parsing avanzato venga effettuato con successo, in caso contrario il parser risponderà con un errore generico.
+
+ - Per vedere quali costrutti il codice copre attualmemnte vedere il file: [implementations.md](./implementations.md)
