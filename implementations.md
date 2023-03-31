@@ -1,4 +1,5 @@
-# Costrutti del linguaggio Python Coperti Attualemente (Aggiornamento data: 31/03/2023)
+# Costrutti del linguaggio Python coperti attualmente 
+# (Aggiornamento data: 31/03/2023)
 
 - Commenti (estratti alla fine del parsing e letti a parte)
 
