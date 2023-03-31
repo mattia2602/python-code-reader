@@ -10,27 +10,27 @@
 - Utilizzo dei valori logici TRUE e FALSE
 
 - Visit di un'espressione composta da:
-      - valori costanti
-      - assegnamento
-      - comparazione
-      - definizione di funzione
-      - chiamata di funzione
-      - operatore di assegnamento
-      - variabili
-      - istruzione if, else, elif
-      - costrutto for, while
-      - definizione di un array
-      - definizione di un elemento di un array
-      - costrutto try, except
-      - istruzione import
-      - istruzione yield
-      - operatori matematici (+, -, *, /, ...)
-      - operatori logici (and, or, not, ...)
-      - istanza di una classe
-      - definizione di un dizionario
-      - istruzione pass
-      - sotto-espressioni (espressioni annidate)
-      - condizioni TRUE o FALSE
+            - valori costanti
+            - assegnamento
+            - comparazione
+            - definizione di funzione
+            - chiamata di funzione
+            - operatore di assegnamento
+            - variabili
+            - istruzione if, else, elif
+            - costrutto for, while
+            - definizione di un array
+            - definizione di un elemento di un array
+            - costrutto try, except
+            - istruzione import
+            - istruzione yield
+            - operatori matematici (+, -, *, /, ...)
+            - operatori logici (and, or, not, ...)
+            - istanza di una classe
+            - definizione di un dizionario
+            - istruzione pass
+            - sotto-espressioni (espressioni annidate)
+            - condizioni TRUE o FALSE
       
 - Visit dei operatori di comparazione (>, < , ==, >=, <=, ...)
 
