@@ -44,4 +44,4 @@ def visit_Expr(self, node):
 
 Quindi, se l'espressione è composta anche da un costrutto "continue", esso viene riconosciuto e fatto gestire dalla sua funzione specifica.
 
-Ora il nostro programma [parser.py](./files/parser.py) è in grado di fare il parsing avanzato di un'istruzione "continuw" :)
+Ora il nostro programma [parser.py](./files/parser.py) è in grado di fare il parsing avanzato di un'istruzione "continue" :)
