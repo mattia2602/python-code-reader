@@ -1,6 +1,12 @@
 # LETTORE AVANZATO DI CODICE PYTHON
 Questo progetto è stato creato con lo scopo di fornire codice ed istruzioni utili alla configurazione dell'editor 'Visual Studio Code' per coloro che hanno difficoltà visive e desiderano programmare in Python. Lo scopo è di rendere lo sviluppo del codice più accessibile alle loro esigenze. I sorgenti di codice che verranno citati in alcuni step sono disponibili nel folder 'files'.
 
+Quanto presentato è il risultato del tirocinio curricolare dello studente Mattia Donà (Laurea in 
+Informatica, Università degli Studi di Verona) con la supervisione dei proff. Davide Quaglia 
+(Dipartimenti di Informatica, Università degli Studi di Verona), Manuela Boschiero (Dipartimento di 
+Lingue e Letterature Straniere, Università degli Studi di Verona) e Marco Rospocher (Dipartimento di 
+Lingue e Letterature Straniere, Università degli Studi di Verona).
+
 # STEP 1: INSTALLARE UNO SCREEN READER
 
 Per iniziare è necessario avere a disposizione uno screen-reader che legga il contenuto delle pagine visualizzate a schermo tramite una voce sintetizzata. Ne esistono diversi a seconda del sistema operativo che si possiede, ecco alcuni principali esempi:
