@@ -1,5 +1,11 @@
 # ADVANCED PYTHON CODE READER
-This project was created with the aim of providing code and instructions useful for configuring the 'Visual Studio Code' editor for those who are visually impaired and wish to program in Python. The goal is to make code development more accessible to their needs. The code sources that will be mentioned in some steps are available in the 'files' folder
+This project was created with the aim of providing code and instructions useful for configuring the 'Visual Studio Code' editor for those who are visually impaired and wish to program in Python. The goal is to make code development more accessible to their needs. The code sources that will be mentioned in some steps are available in the 'files' folder.
+
+What is presented is the result of the curricular internship of the student Mattia Donà (Degree in
+Computer Science, University of Verona) with the supervision of prof. David Quaglia
+(Departments of Computer Science, University of Verona), Manuela Boschiero (Department of
+Foreign Languages and Literatures, University of Verona) and Marco Rospocher (Department of
+Foreign Languages and Literatures, University of Verona).
 
 # STEP 1: INSTALL A SCREEN READER
 
