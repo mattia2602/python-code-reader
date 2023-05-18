@@ -3,7 +3,7 @@ This project was created with the aim of providing code and instructions useful 
 
 What is presented is the result of the curricular internship of the student Mattia Donà (Degree in
 Computer Science, University of Verona) with the supervision of prof. David Quaglia
-(Departments of Computer Science, University of Verona), Manuela Boschiero (Department of
+(Departments of Computer Science, University of Verona), Manuel Boschiero (Department of
 Foreign Languages and Literatures, University of Verona) and Marco Rospocher (Department of
 Foreign Languages and Literatures, University of Verona).
 
