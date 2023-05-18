@@ -3,7 +3,7 @@ Questo progetto è stato creato con lo scopo di fornire codice ed istruzioni uti
 
 Quanto presentato è il risultato del tirocinio curricolare dello studente Mattia Donà (Laurea in 
 Informatica, Università degli Studi di Verona) con la supervisione dei proff. Davide Quaglia 
-(Dipartimenti di Informatica, Università degli Studi di Verona), Manuela Boschiero (Dipartimento di 
+(Dipartimenti di Informatica, Università degli Studi di Verona), Manuel Boschiero (Dipartimento di 
 Lingue e Letterature Straniere, Università degli Studi di Verona) e Marco Rospocher (Dipartimento di 
 Lingue e Letterature Straniere, Università degli Studi di Verona).
 
